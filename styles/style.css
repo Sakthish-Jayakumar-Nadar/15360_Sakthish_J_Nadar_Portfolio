@@ -702,6 +702,16 @@ footer > a > i{
     #internship-section > div > div > p{
         padding: 1rem;
     }
+    #internship-section > div > div:nth-child(1){
+        animation:  comeFromLeft linear;
+        animation-timeline: view();
+        animation-range: entry 0 cover 25%;
+    }
+    #internship-section > div > div:nth-child(2){
+        animation:  comeFromRignt linear;
+        animation-timeline: view();
+        animation-range: entry 0 cover 25%;
+    }
     nav > div{
         min-height: 50px;
         height: 12vh;
