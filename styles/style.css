@@ -175,7 +175,7 @@ header{
     aspect-ratio: 1/1;
     border-radius: 50%;
     background: conic-gradient(orange var(--progress), ghostwhite 0%);
-    transition: --progress 5s linear;
+    transition: --progress 3s linear;
     display: grid;
     place-items: center;
 }
