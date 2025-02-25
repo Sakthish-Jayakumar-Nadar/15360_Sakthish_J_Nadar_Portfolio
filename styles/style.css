@@ -390,7 +390,7 @@ nav > div > a{
 }
 #nav-label{
     display: block;
-    font-size: clamp(15px, 2vw + 1rem, 100px);
+    font-size: clamp(15px, 2vw + 1rem, 500px);
     min-width: 60px;
     border-radius: 50%;
     cursor: pointer;
