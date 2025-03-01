@@ -122,6 +122,9 @@ header{
     flex-wrap: wrap;
 }
 @media only screen and (width < 534px) {
+    #skills-section {
+        padding-top: 10vh;
+    }
     #skills-section > div > figure:nth-child(odd){
         animation:  comeFromLeft linear;
         animation-timeline: view();
@@ -686,7 +689,7 @@ footer > a > i{
 
 
 @media only screen and (max-aspect-ratio : 1/1) {
-    #home-section-large-screens{
+    .home-section-large-screens{
         display: none;
     }    
     .home-section > div > h1{
@@ -744,7 +747,7 @@ footer > a > i{
 }
 /*width > 599px*/
 @media only screen and (min-aspect-ratio : 1/1) {
-    #home-section-small-screens{
+    .home-section-small-screens{
         display: none;
     }
     .home-section > div > h1{
