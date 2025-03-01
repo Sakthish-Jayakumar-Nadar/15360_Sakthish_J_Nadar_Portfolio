@@ -405,26 +405,30 @@ nav > div > a{
     left: -64%;
 }
 #nav-checkbox:checked ~ a:nth-child(4){
+    top: 75%;
+    left: -64%;
+}
+#nav-checkbox:checked ~ a:nth-child(5){
     transition-delay: .1s;
     top: 130%;
     left: -35%;
 }
-#nav-checkbox:checked ~ a:nth-child(5){
+#nav-checkbox:checked ~ a:nth-child(6){
     transition-delay: .2s;
     top: 163%;
     left: 20%;
 }
-#nav-checkbox:checked ~ a:nth-child(6){
+#nav-checkbox:checked ~ a:nth-child(7){
     transition-delay: .3s;
     top: 162%;
     left: 82%;
 }
-#nav-checkbox:checked ~ a:nth-child(7){
+#nav-checkbox:checked ~ a:nth-child(8){
     transition-delay: .4s;
     top: 130%;
     left: 135%;
 }  
-#nav-checkbox:checked ~ a:nth-child(8){
+#nav-checkbox:checked ~ a:nth-child(9){
     transition-delay: .5s;
     top: 75%;
     left: 164%;
@@ -689,6 +693,9 @@ footer > a > i{
 
 
 @media only screen and (max-aspect-ratio : 1/1) {
+    .home-section-ls{
+        display: none;
+    }    
     .home-section-large-screens{
         display: none;
     }    
@@ -747,6 +754,9 @@ footer > a > i{
 }
 /*width > 599px*/
 @media only screen and (min-aspect-ratio : 1/1) {
+    .home-section-ss{
+        display: none;
+    }    
     .home-section-small-screens{
         display: none;
     }
